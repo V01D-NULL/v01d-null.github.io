@@ -32,6 +32,6 @@ I _love_ learning new things,which lead me to try many things from building a fr
 When I'm not programming I'm probably out doing freerunning (a branch of parkour which involves fluid and aesthetic movement rather than speed and efficiency) or simply being your average supernatural highschool senior 😛
 
 ### Technical skills
-At the time of writing I have been doing osdev for about 6,7,8 months or so and although I have much to learn, I have picked up some very valuable knowledge through others which is why I created this blog in the first place.
+At the time of writing I have been doing osdev for about 6,7,8 months or so and although I have much to learn, I have picked up some very valuable knowledge through others, and I wish to share this with others which is why I created this blog in the first place.
 
 All in all I started programming at the age of 16 ½ and after trying many languages for a solid year I ultimately found and started to aquire C and assembly skills.
