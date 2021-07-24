@@ -21,8 +21,9 @@
 title: "Alice in kernel land"
 email: timstert23@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A responsive sidebar Jekyll theme using the Pure.css framework, 
-  designed for writers and bloggers of all kinds.
+  A personal blog from a low level enthusiast.
+  You can expect explanations about low level concepts and
+  general low level / osdev talk.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://v01d-null.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 repository: V01D-NULL
