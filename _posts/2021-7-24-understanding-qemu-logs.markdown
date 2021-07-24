@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Welcome to my blog!"
+title: "Understanding qemu logs for debugging"
 date: 2021-7-24
 tags:
   - qemu
