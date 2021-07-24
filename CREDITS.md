@@ -1,0 +1,1 @@
+Favicon icon from: https://www.flaticon.com/authors/freepik
