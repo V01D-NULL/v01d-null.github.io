@@ -16,6 +16,7 @@ Here I talk about all sorts of things that are currently on my mind.
 Usually it's about os/kernel development or something of the likes.
 
 Let's address the elaphant in the room: "Alice in kernel land"
+
 The name "Alice in kernel land" is a dub on alice in wonderland.
 It's my tribute to the wonders of kernels and operating systems.
 
