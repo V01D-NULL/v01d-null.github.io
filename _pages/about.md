@@ -4,7 +4,7 @@ title: About me
 permalink: /about/
 ---
 
-<img src="https://v01d-null.github.io/assets/img/common/hello.gif">
+<img src="https://v01d-null.github.io/assets/img/common/hello.gif" alt="waving gif" style="display: block margin-left: auto; margin-right: auto;">
 
 My name is Tim and I am 18 years young, and I go by the name of `V01D-NULL` or more commonly `V01D` online.
 I am half american, half german and speak both languages fluently.
