@@ -3,7 +3,6 @@ layout: post
 title: "Welcome to my blog!"
 date: 2021-7-24
 tags:
-  - About me
   - Welcome
 author: Tim Thompson
 avatar: assets/profile.png
