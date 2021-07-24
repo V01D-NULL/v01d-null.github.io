@@ -6,7 +6,7 @@ tags:
   - About me
   - Welcome
 author: Tim Thompson
-avatar: assets/img/common/pfp.png
+avatar: assets/profile.png
 category: Welcome post
 ---
 

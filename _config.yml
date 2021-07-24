@@ -45,7 +45,7 @@ author_bio: >-
   a CE degree though!
   Check my github if you haven't already, and I'll see you in the next post.
   Bye!
-author_pic: https://v01d-null.github.io/assets/profile.png
+author_pic: https://v01d-null.github.io/assets/profile-sm.png
 paginate: 4
 paginate_path: "/:num/"
 
