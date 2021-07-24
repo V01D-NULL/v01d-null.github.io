@@ -37,12 +37,15 @@ disqus: purelog-jekyll
 
 author: Brennan K. Brown
 author_bio: >-
-  Hey there! 😄 My name is Brennan, I'm a 25-year-old Métis web developer and 
-  content strategist from Winnipeg, Manitoba and currently reside in Calgary, 
-  Alberta. I've recently compeleted a Full Stack Developer Program at EvolveU, 
-  and I'm looking to help those that need web development work done, or 
-  searching for ideas and management for their next content project.
-author_pic: https://brennanbrown.ca/img/avatar.png
+  Hey there, I hope you enjoyed this blog post!
+  My name is Tim, I am an 18 year young developer who has a particular interest
+  in low level development. My favorite dev tools? Nothing more than vscode, ubunutu,
+  C + x86 assembly and a cup of tea :^)
+  Education: None actually, I'm still in my senior year of highschool, aiming high for
+  a CE degree though!
+  Check my github if you haven't already, and I'll see you in the next post.
+  Bye!
+author_pic: https://v01d-null.github.io/assets/profile.png
 paginate: 4
 paginate_path: "/:num/"
 
