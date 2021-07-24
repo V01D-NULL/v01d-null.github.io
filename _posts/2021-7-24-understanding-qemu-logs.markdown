@@ -86,8 +86,8 @@ EFER=0000000000000500
 `CPL=0 A20=1 HLT=0`
 
 - CPL = Current privilege level (Also known as the ring level, here it is `0` indicating that we are running in ring 0 (kernel mode))
-- A20 = If this is set (1) then the A20 line has been enabled. This is done for you in bootloaders such as limine. Here's a short summary: The a20 line is an address line that had to be added by IBM-AT which had an i286 (which could access up to 16MB of memory) in order to allow backwards compatibility for the 8086. If it wasn't enabled it could only access 1MB of memory + 64KB due to segment registers. Enabling it would allow access to all memory, otherwise the address lines would wrap around to A0.
-- HLT = If this is set, then the processor has been stopped which is generally not a good thing (Basically a visual representation of the `hlt` instruction)
+- A20 = If this is set (1) then the A20 line has been enabled. This is done for you in bootloaders such as limine. Here's a short summary: The a20 line is an address line that had to be added for the IBM-AT which consisted of an i286 and 16MB of memory in order to allow backwards compatibility for the 8086. If it wasn't enabled it could only access 1MB of memory + 64KB due to segment registers. Enabling it would allow access to all memory, otherwise the address lines would wrap around to A0.
+- HLT = If this is set, then the processor has been stopped which is generally not a good thing (Basically a visual representation of the state of the `hlt` instruction)
 
 `ES =0010 0000000000000000 00000000 00009700 DPL=0`
 
