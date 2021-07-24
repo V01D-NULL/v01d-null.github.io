@@ -15,6 +15,10 @@ Hey and welcome to my blog 👋
 Here I talk about all sorts of things that are currently on my mind.
 Usually it's about os/kernel development or something of the likes.
 
+Let's address the elaphant in the room: "Alice in kernel land"
+The name "Alice in kernel land" is a dub on alice in wonderland.
+It's my tribute to the wonders of kernels and operating systems.
+
 ### About me
 My name is Tim and I am 18 years young, and I go by the name of `V01D-NULL` or more commonly `V01D` online.
 I am half american, half german and speak both languages fluently.
