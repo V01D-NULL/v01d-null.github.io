@@ -10,26 +10,24 @@ avatar: assets/img/common/pfp.png
 category: Welcome post
 ---
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+### Introduction
+Hey and welcome to my blog 👋
 
-Jekyll requires blog post files to be named according to the following format:
+Here I talk about all sorts of things that are currently on my mind.
+Usually it's about os/kernel development or something of the likes.
 
-`YEAR-MONTH-DAY-title.MARKUP`
+### About me
+My name is Tim and I am 18 years young, and I go by the name of `V01D-NULL` or more commonly `V01D` online.
+I am half american, half german and speak both languages fluently.
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+My favorite programming languages are C and assembly, currently I am looking for a 
+scripting language to learn as I believe every programmer should know a cross platform scripting lanauge (even if it's just a little)
 
-Jekyll also offers powerful support for code snippets:
+I _love_ learning new things,which lead me to try many things from building a frontend website, and learning about cybersecurity to building kernels which is what I ultimately fell in love with.
 
-{% highlight ruby %}
-def print_hi(name)
-puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+When I'm not programming I'm probably out doing freerunning (a branch of parkour which involves fluid and aesthetic movement rather than speed and efficiency) or simply being your average supernatural highschool senior 😛
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+### Technical skills
+At the time of writing I have been doing osdev for about 6,7,8 months or so and although I have much to learn, I have picked up some very valuable knowledge through others which is why I created this blog in the first place.
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]: https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+All in all I started programming at the age of 16 ½ and after trying many languages for a solid year I ultimately found and started to aquire C and assembly skills.

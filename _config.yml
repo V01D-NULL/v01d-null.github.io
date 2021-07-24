@@ -25,10 +25,9 @@ description: >- # this means to ignore newlines until "baseurl:"
   You can expect explanations about low level concepts and
   general low level / osdev talk.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://v01d-null.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://v01d-null.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 repository: V01D-NULL
-twitter: brennankbrown
-github: brennanbrown
+github: V01D-NULL
 
 header_image: assets/profile.png
 
