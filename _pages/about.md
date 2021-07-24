@@ -1,32 +1,20 @@
 ---
 layout: page
-title: About the Purelog Theme
+title: About me
 permalink: /about/
 ---
 
-**Purelog** is a responsive, sidebar theme for the popular JAMstack generator Jekyll that only uses the minimal [**Pure.css** framework](https://github.com/pure-css/pure) (hence the name!), while still following the best practices possible for accessibility and search-engine optimization.
+My name is Tim and I am 18 years young, and I go by the name of `V01D-NULL` or more commonly `V01D` online.
+I am half american, half german and speak both languages fluently.
 
-I created this after finishing [Watery](https://github.com/brennanbrown/watery) (which this theme is built off of), as a way to add more functionality and design while still remaining as lightweight as possible.
+My favorite programming languages are C and assembly, currently I am looking for a 
+scripting language to learn as I believe every programmer should know a cross platform scripting lanauge (even if it's just a little)
 
-This project is aimed towards those looking for an interesting theme for Jekyll that has features that aren't found commonly elsewhere, which I'll list down below.
+I _love_ learning new things,which lead me to try many things from building a frontend website, and learning about cybersecurity to building kernels which is what I ultimately fell in love with.
 
-### Features
+When I'm not programming I'm probably out doing freerunning (a branch of parkour which involves fluid and aesthetic movement rather than speed and efficiency) or simply being your average supernatural highschool senior 😛
 
-Here are a few interesting features of this Jekyll theme:
+### Technical skills
+At the time of writing I have been doing osdev for about 6,7,8 months or so and although I have much to learn, I have picked up some very valuable knowledge through others, and I wish to share this with others which is why I created this blog in the first place.
 
-- A fully customizable and empty `_BLANK_config.yml` to make getting up-and-running easy.
-- A speedy, on-site search function using [Simply Jekyll Search](https://github.com/christian-fei/Simple-Jekyll-Search).
-- Custom collections for different types of material (note-taking, journal writing, etc.)
-- An auto-generating archive page that displays all entries from _all_ collections.
-- Having a `_pages` collection for easier organization.
-- An author bio at the end of each post. (Located in `_inclues/author.html`)
-- Full Rouge support for syntax highlighting. (Currently using `base16.solarized.light`)
-- Auto-generated RSS feed, sitemap, accessibility features, and search-engine optimization.
-
-You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-[jekyll-organization]: https://github.com/jekyll
+All in all I started programming at the age of 16 ½ and after trying many languages for a solid year I ultimately found and started to aquire C and assembly skills.
