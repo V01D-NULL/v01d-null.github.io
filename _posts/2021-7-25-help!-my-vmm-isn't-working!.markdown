@@ -67,7 +67,7 @@ void *phys_alloc()
 Assuming your GDT and IDT worked as expected earlier, it know doesn't seem to work after the vmm has been setup.
 The issue _could_ lie in your vmm, but before you go searching for a bug that might not exist, I would strongly suggest you to check if `gdt_init()` & `idt_init()` have been called *before* `vmm_init()`.
 
-If you load your gdt and idt before mapping page tables your kernel might try to access a gdt or idt entry at the address xyz but since you setup virtual memory the address of the gdt/idt may not exist where the kernel thinks it is.
+If you load your gdt and idt before mapping page tables your kernel might try to access a gdt or idt entry at the address xyz but since you setup virtual memory the address of the gdtr/idtr may not exist where the CPU has been told previously.
 
 Make sure to initialise your virtual memory manager before initialising your gdt/idt.
 
