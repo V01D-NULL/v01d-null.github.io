@@ -52,7 +52,7 @@ void *phys_alloc()
 {
 	uint32_t idx = find_free_block_in_bitmap();
 
-	//Returns a pointer allocated memory in the higher half address space
+	//Returns a pointer to allocated memory in the higher half address space
 	void *ptr = page_frame_allocator_reserve_bit(idx);
 
 	return (void*) ((ptr - ADDRESS_BASE));
