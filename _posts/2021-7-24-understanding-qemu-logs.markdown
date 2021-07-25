@@ -9,7 +9,7 @@ tags:
   - x86
 author: Tim Thompson
 avatar: assets/profile.png
-category: Welcome post
+category: Debugging
 ---
 
 Hello everyone, today I wanted to talk about the output of Qemu's `-d int` flag.
@@ -117,7 +117,7 @@ Fortunately for us, this isn't random.
 
 This is caused when an exception occurs, and it gives us some information about the type of exception, and if it came from a previous exception (i.e. a double or triple fault).
 
-Let's look at example:
+Let's take a look at an example:
 
 `check_exception old: 0xffffffff new 0xe`
 
@@ -125,7 +125,7 @@ We now know that an exception has occurred, but which? And what does `old` mean?
 
 Well `old` and `new` are the ISR number's (i.e. the type of interrupt represented as a number). `old` displaying the ISR number of the previous exception, which in this case is not present (`-1` or `0xffffffff`) and `new` is the ISR of the current interrupt.
 
-For a list of ISR numbers refer to the [intel][INTEL-SDM] or [this][OSDEV-WIKI-ISR-NUMBERS] osdev wiki article (Look for the "Vector nr.").
+For a list of ISR numbers refer to the [intel][INTEL-SDM] SDM or [this][OSDEV-WIKI-ISR-NUMBERS] osdev wiki article (Look for the "Vector nr.").
 
 ### Wrapping it up
 That's it for this post!
