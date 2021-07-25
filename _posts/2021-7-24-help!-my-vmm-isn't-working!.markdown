@@ -62,12 +62,12 @@ void *phys_alloc()
 }
 {% endhighlight %}
 
-### I'm getting #GP faults and my interrupts aren't working!
+### I'm getting #GP, Double or triple faults and my interrupts aren't working!
 
-Assuming your GDT and IDT worked as expected earlier, it know doesn't seem to work after the vmm.
-The issue _could_ lie in your vmm, but before you go searching for a bug that might not exist I advise you to check if you call `gdt_init()` & `idt_init()` *before* `vmm_init()`.
+Assuming your GDT and IDT worked as expected earlier, it know doesn't seem to work after the vmm has been setup.
+The issue _could_ lie in your vmm, but before you go searching for a bug that might not exist, I would strongly suggest you to check if `gdt_init()` & `idt_init()` have been called *before* `vmm_init()`.
 
-If you load your gdt and idt before mapping page tables your kernel might try to access a gdt or idt entry at the address you said but since you setup virtual memory the address of the gdt/idt may not exist where the kernel thinks it is.
+If you load your gdt and idt before mapping page tables your kernel might try to access a gdt or idt entry at the address xyz but since you setup virtual memory the address of the gdt/idt may not exist where the kernel thinks it is.
 
 Make sure to initialise your virtual memory manager before initialising your gdt/idt.
 
