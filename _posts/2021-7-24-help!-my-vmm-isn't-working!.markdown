@@ -50,13 +50,13 @@ Below is an example on how to write pmm_alloc for paging:
 //NOTE: This assumes a bitmap based pmm, change it according to your needs
 void *phys_alloc()
 {
-	uint32_t idx = find_free_block_in_bitmap();
-	void *ptr = page_frame_allocator_reserve_bit(idx); // Marks the bit as reserved and returns a pointer the allocated physical memory (at this point it would be a higher half address which is not what we need)
+uint32_t idx = find_free_block_in_bitmap();
+void *ptr = page_frame_allocator_reserve_bit(idx); // Marks the bit as reserved and returns a pointer the allocated physical memory (at this point it would be a higher half address which is not what we need)
 
-	return (void*) ((ptr - ADDRESS_BASE)); //This should enable your vmm to map pages without page faulting or having other obscure errors when loading cr3
+return (void*) ((ptr - ADDRESS_BASE)); //This should enable your vmm to map pages without page faulting or having other obscure errors when loading cr3
 
-	//What NOT to do:
-	//return (void*)ptr; <- ptr is a higher half address, remember?
+//What NOT to do:
+//return (void*)ptr; <- ptr is a higher half address, remember?
 }
 {% endhighlight %}
 
